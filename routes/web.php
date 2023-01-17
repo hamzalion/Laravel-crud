@@ -15,8 +15,4 @@ eServiceProvider within a group which
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::resource('products', ProductController::class);
